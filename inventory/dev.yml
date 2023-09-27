@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Update your inventory/dev.yml file with this snippet of code:
 [nfs]
 172.31.24.241 ansible_ssh_user='ec2-user'
@@ -11,3 +12,18 @@
 
 [lb]
 172.31.20.17 ansible_ssh_user='ubuntu'
+=======
+# Update your inventory/dev.yml file with this snippet of code:
+[nfs]
+172.31.24.241 ansible_ssh_user='ec2-user'
+
+[webservers]
+172.31.31.133 ansible_ssh_user='ec2-user'
+172.31.30.94 ansible_ssh_user='ec2-user'
+
+[db]
+172.31.19.155 ansible_ssh_user='ubuntu' 
+
+[lb]
+172.31.20.17 ansible_ssh_user='ubuntu'
+>>>>>>> f0bb01d2fa4eb5beea4a4881469921dca50d6ea0
